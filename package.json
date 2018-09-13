@@ -1,0 +1,29 @@
+{
+  "name": "monbrey-lti",
+  "version": "1.0.0",
+  "description": "Personal development space for testing LTIs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Monbrey/monbrey-lti.git"
+  },
+  "keywords": [
+    "lti",
+    "canvas"
+  ],
+  "author": "Ryan Munro",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Monbrey/monbrey-lti/issues"
+  },
+  "homepage": "https://github.com/Monbrey/monbrey-lti#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "ims-lti": "^3.0.2"
+  }
+}
